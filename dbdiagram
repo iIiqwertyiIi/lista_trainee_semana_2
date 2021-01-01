@@ -1,0 +1,18 @@
+Table Teachers {
+  teacher_id int [pk]
+  teacher_cpf varchar [not null]
+  teacher_sex varchar [not null]
+  teacher_age int [not null]
+  teacher_name varchar [not null]
+  teacher_subject varchar [not null]
+}
+
+Table Students {
+  student_id int [pk]
+  student_age int [not null]
+  student_sex varchar [not null]
+  student_name varchar [not null]
+  student_cpf varchar [not null]
+  student_registration int [not null]
+  teacher_id int [ref: > Teachers.teacher_id]
+}

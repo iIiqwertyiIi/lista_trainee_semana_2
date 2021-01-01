@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ano_de_inicio: MyString
+  ano_de_termino: MyString
+  motivo_do_fim: MyString
+  figura_historica: MyString
+
+two:
+  ano_de_inicio: MyString
+  ano_de_termino: MyString
+  motivo_do_fim: MyString
+  figura_historica: MyString
